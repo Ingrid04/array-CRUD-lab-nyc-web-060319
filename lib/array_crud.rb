@@ -3,40 +3,41 @@ def create_an_empty_array
 end
 
 def create_an_array
-   dogs = ["puppy1", "puppy2", "puppy3", "puppy4"]
+   array = ["Wow", "I", "am", "really". "learning"]
 end
 
 def add_element_to_end_of_array(array, element)
-   dogs = ["puppy1", "puppy2", "puppy3", "puppy4"]
-   dogs.push("puppy5")
+   array = ["Wow", "I", "am", "really". "learning"]
+   element = "arrays!"
+   array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-    dogs = ["puppy1", "puppy2", "puppy3", "puppy4"]
-    dogs.unshift("puppy0")
+    array = ["Wow", "I", "am", "really". "learning"]
+    array.unshift("Wow")
 end
 
 def remove_element_from_end_of_array(array)
-    dogs = ["puppy1", "puppy2", "puppy3", "puppy4"]
-    dogs.pop
+    array = ["Wow", "I", "am", "really". "learning"]
+    array.pop
 end
 
 def remove_element_from_start_of_array(array)
-    dogs = ["puppy1", "puppy2", "puppy3", "puppy4"]
-    dogs.shift
+    array = ["Wow", "I", "am", "really". "learning"]
+    array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-    dogs = ["puppy1", "puppy2", "puppy3", "puppy4"]
-    dogs[1]
+    array = ["Wow", "I", "am", "really". "learning"]
+    array[1]
 end
 
 def retrieve_first_element_from_array(array)
-    dogs = ["puppy1", "puppy2", "puppy3", "puppy4"]
-    dogs.first
+    array = ["Wow", "I", "am", "really". "learning"]
+    array.first
 end
 
 def retrieve_last_element_from_array(array)
-    dogs = ["puppy1", "puppy2", "puppy3", "puppy4"]
-    dogs.last
+    array = ["Wow", "I", "am", "really". "learning"]
+    array.last
 end
